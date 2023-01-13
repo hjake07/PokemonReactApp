@@ -1,0 +1,144 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+.mySection {
+    background-color: #225560;
+    background-image: url(../../Global/images/pokemonstadium.jpg);
+    height: 100vh;
+    padding-bottom: 50px;
+}
+.backgroundTest {
+    background-color: rgb(43, 80, 215);
+    background-image: url(../../Global/images/pokeball.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 140px;
+    height: 190px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.backgroundTest:hover {
+    cursor: pointer;
+}
+.theContainer {
+    background-image: url(../../Global/images/pokemon-background.png);
+    height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(244, 244, 244);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a {
+    text-align: center;
+}
+.box {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 244, 244);
+    width: 40%;
+    height: 60%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.playerSelect, .nameInput {
+    margin: 20px auto;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+.startButton {
+    font-size: 20px;
+    margin: 20px auto;
+    width: 150px;
+    height: 50px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+}
+.startButton:hover{
+    cursor: pointer;
+}
+.title {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+.centered{
+    margin-top: 2%;
+    text-align: center;
+}
+nav {
+    font-family: sans-serif;
+    background-color: #225560;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navTitle {
+    font-size: 40px;
+    margin: 10px 0 0 10px;
+    padding: 0;
+    color: white;
+
+}
+.linksDiv {
+    display: flex;
+}
+.links {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: start;
+    align-items: stretch;
+    gap: 0.5rem;
+}
+.p3container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.player1Scores {
+    position: absolute;
+    top: 10%;
+    right: 5px;
+    color: blue;
+
+}
+.player2Scores {
+    position: absolute;
+    top: 20%;
+    right: 5px;
+    color: red;
+}
+.player3Scores {
+    position: absolute;
+    top: 30%;
+    right: 5px;
+    color: green;
+}
+.player4Scores {
+    position: absolute;
+    top: 40%;
+    right: 5px;
+    color: orange;
+
+}
+.playerActive {
+    height: 40px;
+    border: 3px solid blue;
+}
