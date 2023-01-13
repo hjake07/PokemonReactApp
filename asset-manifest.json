@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2bc28822.css",
+    "main.js": "/static/js/main.be5b06ec.js",
+    "static/js/787.479cfba8.chunk.js": "/static/js/787.479cfba8.chunk.js",
+    "static/media/pokemon-background.png": "/static/media/pokemon-background.006559f5b9e6f6606a85.png",
+    "static/media/pokemonstadium.jpg": "/static/media/pokemonstadium.c3032a1a4b7482e2f4b2.jpg",
+    "static/media/professor_oak_s_lab_by_rosegardeninhell.jpeg": "/static/media/professor_oak_s_lab_by_rosegardeninhell.a465375ec86c024a35f6.jpeg",
+    "static/media/pokeball.png": "/static/media/pokeball.8956d52191cc63d7ceaa.png",
+    "index.html": "/index.html",
+    "main.2bc28822.css.map": "/static/css/main.2bc28822.css.map",
+    "main.be5b06ec.js.map": "/static/js/main.be5b06ec.js.map",
+    "787.479cfba8.chunk.js.map": "/static/js/787.479cfba8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bc28822.css",
+    "static/js/main.be5b06ec.js"
+  ]
+}
