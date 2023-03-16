@@ -5,7 +5,7 @@
 .mySection {
     background-color: #225560;
     background-image: url(../../Global/images/pokemonstadium.jpg);
-    height: 100vh;
+    height: fit-content;
     padding-bottom: 50px;
 }
 .backgroundTest {
@@ -141,4 +141,7 @@ nav {
 .playerActive {
     height: 40px;
     border: 3px solid blue;
+}
+.h-fc {
+    height: fit-content;
 }

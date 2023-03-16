@@ -13,7 +13,7 @@ function shuffleArray(array) {
   }
 }
 let active_player = 1;
-let rounds = 18;
+let rounds = 24;
 export default function Jcode(){ //Remember to rename your section here
   const {players_count} = useContext(AppContext_AmountPlayers)
   const {players} = useContext(AppContext_PlayersNames)
