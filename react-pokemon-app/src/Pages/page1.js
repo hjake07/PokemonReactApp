@@ -7,7 +7,6 @@ export default function WelcomePage(){
     return(
         <div className="theContainer">
             <div className="box d-flex justify-content-center">
-                {/* <Navbar></Navbar> */}
                 <h1 className='title'>Pokemon Matching Game</h1>
                 <h2 className='playerSelect'>Players</h2>
                 <PlayerAmountOptionComponent></PlayerAmountOptionComponent>
